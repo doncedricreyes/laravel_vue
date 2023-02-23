@@ -31,9 +31,9 @@
             <span class="mt-1 text-gray-500 text-sm">{{$task->date}}</span>
           </div>
           <div class="md:flex-grow">
-            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">{{$task->name}}</h2>
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2" >{{$task->name}}</h2>
             <p class="leading-relaxed">{{$task->description}}</p>
-            <a class="text-green-500 inline-flex items-center mt-4">Learn More
+            <a class="text-green-500 inline-flex items-center mt-4" href="/tasks/edit/{{$task->id}}">Learn More
               <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M5 12h14"></path>
                 <path d="M12 5l7 7-7 7"></path>
